@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'norseregular';
+    src: url('fonts/norse-webfont.woff2') format('woff2'),
+         url('fonts/norse-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'norsebold';
+    src: url('fonts/norsebold-webfont.woff2') format('woff2'),
+         url('fonts/norsebold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-image:url("images/hyabg.gif");
+    background-color: black;
+    background-size: 120vw;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    -webkit-user-select: none;        
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+
+}
+
+
+img{
+    width: 40vw;
+    -webkit-filter: drop-shadow(10px 5px 5px #360005);
+    transition: all ease 0.4s;
+}
+
+#mainLogo {
+    padding-top: 10vw;
+    display: flex;
+    justify-content: center;
+}
+.imgLogo:hover {
+    scale: 105%;
+    transition: all ease 0.1s;
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 12px;
+    border-radius: 15px;
+    transition: all ease 0.3s;
+    -webkit-filter: drop-shadow(0px 0px 15px rgb(58, 0, 0));
+}
+.button:hover {
+    transform: scale(1.15);
+    background-color: rgba(61, 61, 61, 0.5);
+    color: #ffe49a;
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+
+.links {
+    color: #e0a80b;
+    padding-top: 5vw;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 30px;
+    font-family: norsebold;
+}
+
+.lAbt {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 30px;
+    font-family: norsebold;
+    background-image:linear-gradient(90deg, #e0a80b, #b98410) ;
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 5px;
+   }
+
+.pAbout{
+    position: relative;
+    top: 50%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+}
+
+#about {
+    position: relative;
+    width: 100vw;
+    height: 1000px;
+    background-color: black;
+    color: #e0a80b;
+}
+
+.firstSec {
+    position: relative;
+    width: 100%;
+    }
+
+.firstSec:before {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 80px;
+    background: linear-gradient(
+        rgba(163, 182, 245, 0),
+        rgb(0, 0, 0)
+    );
+}
