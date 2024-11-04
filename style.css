@@ -1,22 +1,22 @@
 @font-face {
     font-family: 'norseregular';
-    src: url('fonts/norse-webfont.woff2') format('woff2'),
-         url('fonts/norse-webfont.woff') format('woff');
+    src: url('../fonts/norse-webfont.woff2') format('woff2'),
+         url('../fonts/norse-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'norsebold';
-    src: url('fonts/norsebold-webfont.woff2') format('woff2'),
-         url('fonts/norsebold-webfont.woff') format('woff');
+    src: url('../fonts/norsebold-webfont.woff2') format('woff2'),
+         url('../fonts/norsebold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 body {
-    background-image:url("images/hyabg.gif");
+    background-image:url("../images/hyabg.gif");
     background-color: black;
     background-size: 120vw;
     background-repeat: no-repeat;
